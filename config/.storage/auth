@@ -1,0 +1,69 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "makovsky"
+                },
+                "id": "9abd97f065b44039b3acbebe12e32a53",
+                "user_id": "bd9cc770476044cb9befc4ff1b80b945"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://localhost:8123/",
+                "client_name": null,
+                "created_at": "2019-09-05T13:03:04.581253+00:00",
+                "id": "59e5f28ad4cd48dfaf7ec8d6f6531f86",
+                "jwt_key": "5ed32b317c26ce048860283191b3c3f5b799699acd8641071cba587d96378d30dcb8e3c1cc221f627a2e045f5da2bcea3d1ea6ebd61075f41a61876002591862",
+                "last_used_at": "2019-09-05T15:51:17.257012+00:00",
+                "last_used_ip": "172.17.0.1",
+                "token": "60a2dafa4b53d528a88238b4585008d289332e48dddc2ccd966f8a080d2cc7f6ee4d76a305f3afd316148cfd369baee5e7ca25076e9db247d462fb7d0c9408e9",
+                "token_type": "normal",
+                "user_id": "bd9cc770476044cb9befc4ff1b80b945"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "4e37f56b8da64fef8ab5c7878ffc7750",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "bd9cc770476044cb9befc4ff1b80b945",
+                "is_active": true,
+                "is_owner": true,
+                "name": "alon",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

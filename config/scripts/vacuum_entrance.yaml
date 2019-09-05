@@ -1,0 +1,8 @@
+vacuum_entrance:
+  alias: "Vacuum Entrance"
+  sequence:
+    - service: vacuum.send_command
+      data:
+        entity_id: vacuum.xiaomi_vacuum_cleaner
+        command: app_zoned_clean
+        params: [[19407,28564,21657,31564,1]]

@@ -1,0 +1,2 @@
+2019-09-05 18:51:09 WARNING (Recorder) [homeassistant.components.recorder] Ended unfinished session (id=5 from 2019-09-05 14:13:01.401921)
+2019-09-05 18:51:35 ERROR (MainThread) [homeassistant.helpers.service] Error rendering data template: UndefinedError: 'trigger' is undefined

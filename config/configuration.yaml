@@ -1,0 +1,28 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Text to speech
+tts:
+  - platform: google_translate
+vacuum:
+  - platform: xiaomi_miio
+    host: 192.168.1.6
+    token: 42783931395962556764314e6e6b4475
+
+input_select:
+  vacuum_room:
+    name: Choose a room to clean
+    options:
+      - Select Input
+      - Entrance
+      - Kitchen
+    initial: Select Input
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include_dir_merge_named scripts

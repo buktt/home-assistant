@@ -1,0 +1,8 @@
+vacuum_dinning_area:
+  alias: "Vacuum Dining Area"
+  sequence:
+    - service: vacuum.send_command
+      data:
+        entity_id: vacuum.xiaomi_vacuum_cleaner
+        command: app_zoned_clean
+        params: [[22732,23377,26132,25977,1]]
