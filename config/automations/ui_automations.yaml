@@ -11,4 +11,3 @@ action:
     entity_id: input_select.vacuum_room
     data_template:
       option: "Select Input"
-#[]

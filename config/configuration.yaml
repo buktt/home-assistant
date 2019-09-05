@@ -21,8 +21,12 @@ input_select:
       - Select Input
       - Entrance
       - Kitchen
+      - Bedroom
+      - Bathrorom
+      - Dining Area
+      - Living Room
     initial: Select Input
 
 group: !include groups.yaml
-automation: !include automations.yaml
+automation: !include_dir_merge_named automations
 script: !include_dir_merge_named scripts

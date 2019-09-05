@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-09-05T16:21:17.003649+00:00",
+            "last_seen": "2019-09-05T19:03:13.004035+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -10,54 +10,58 @@
                     "user_id": "bd9cc770476044cb9befc4ff1b80b945"
                 },
                 "context": {
-                    "id": "424d2d5bad234b4dacb5f5a7c371b003",
+                    "id": "35d009ab5b904a0091dee68ce00cebe5",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.alon",
-                "last_changed": "2019-09-05T15:51:10.504294+00:00",
-                "last_updated": "2019-09-05T15:51:15.622461+00:00",
+                "last_changed": "2019-09-05T18:48:07.579105+00:00",
+                "last_updated": "2019-09-05T18:48:12.303330+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-09-05T16:21:17.003649+00:00",
+            "last_seen": "2019-09-05T19:03:13.004035+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Start Cleaning Room",
                     "last_triggered": "2019-09-05T16:01:06.708223+00:00"
                 },
                 "context": {
-                    "id": "a8a225eea6294d77ad803fd6b178d1f5",
-                    "parent_id": "8c57eb9b98fe4f81a7935dd0f02a0c3f",
+                    "id": "bd705fa61711442b810ee2301011cf7d",
+                    "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.start_cleaning_room",
-                "last_changed": "2019-09-05T15:51:46.721933+00:00",
-                "last_updated": "2019-09-05T16:01:06.708448+00:00",
+                "last_changed": "2019-09-05T18:48:07.579318+00:00",
+                "last_updated": "2019-09-05T18:48:07.579318+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-09-05T16:21:17.003649+00:00",
+            "last_seen": "2019-09-05T19:03:13.004035+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Choose a room to clean",
                     "options": [
                         "Select Input",
                         "Entrance",
-                        "Kitchen"
+                        "Kitchen",
+                        "Bedroom",
+                        "Bathrorom",
+                        "Dining Area",
+                        "Living Room"
                     ]
                 },
                 "context": {
-                    "id": "a8a225eea6294d77ad803fd6b178d1f5",
-                    "parent_id": "8c57eb9b98fe4f81a7935dd0f02a0c3f",
-                    "user_id": null
+                    "id": "8a99656278af4a6b9192244d960d87c0",
+                    "parent_id": null,
+                    "user_id": "8e17e85e183b42c0ba937e109c36b61f"
                 },
                 "entity_id": "input_select.vacuum_room",
-                "last_changed": "2019-09-05T16:01:06.707175+00:00",
-                "last_updated": "2019-09-05T16:01:06.707175+00:00",
-                "state": "Select Input"
+                "last_changed": "2019-09-05T19:00:43.654080+00:00",
+                "last_updated": "2019-09-05T19:00:43.654080+00:00",
+                "state": "Kitchen"
             }
         }
     ],

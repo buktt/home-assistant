@@ -2,8 +2,12 @@
     "data": {
         "users": [
             {
-                "password": "JDJiJDEyJDZoZmtWVFU3TGY4RU1MVk5oWk8xdk9PS2lHWkw0NEd2NzNNYU13T0JTVXBxMU9ZbVBDdk5t",
+                "password": "JDJiJDEyJE5XYW4uTVBFbnJ0RzQ2N05YUUtlNE9JQ0ZiZ3BobW11VEtaOVhha084OUtmUXlYY3VkUy42",
                 "username": "makovsky"
+            },
+            {
+                "password": "JDJiJDEyJHpHVDhSWkdsbm1maW01emoxcGpvaS44TUJXTy5yQ0V2RTdhRFk2eFFBNHVkNUJtbHZHamk2",
+                "username": "kate"
             }
         ]
     },

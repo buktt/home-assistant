@@ -1,2 +1,9 @@
-2019-09-05 18:51:09 WARNING (Recorder) [homeassistant.components.recorder] Ended unfinished session (id=5 from 2019-09-05 14:13:01.401921)
-2019-09-05 18:51:35 ERROR (MainThread) [homeassistant.helpers.service] Error rendering data template: UndefinedError: 'trigger' is undefined
+2019-09-05 21:48:05 WARNING (Recorder) [homeassistant.components.recorder] Ended unfinished session (id=11 from 2019-09-05 17:29:06.742453)
+2019-09-05 21:48:47 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.17.0.1
+2019-09-05 21:48:54 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.17.0.1
+2019-09-05 21:49:14 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.17.0.1
+2019-09-05 21:49:26 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.17.0.1
+2019-09-05 21:52:29 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.17.0.1
+2019-09-05 21:54:14 ERROR (MainThread) [homeassistant.helpers.condition] Error during template condition: UndefinedError: 'dict object' has no attribute 'event'
+2019-09-05 21:54:24 ERROR (MainThread) [homeassistant.helpers.condition] Error during template condition: UndefinedError: 'dict object' has no attribute 'event'
+2019-09-05 21:54:58 ERROR (MainThread) [homeassistant.helpers.condition] Error during template condition: UndefinedError: 'dict object' has no attribute 'event'
