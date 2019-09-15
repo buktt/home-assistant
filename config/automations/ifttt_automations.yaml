@@ -10,4 +10,4 @@ condition:
 action:
   service_template: '{{ trigger.event.data.service }}'
   data_template:
-    room: '{{ trigger.event.data.room }}'
+    room: '{{ trigger.event.data.room | string }}'

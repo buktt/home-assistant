@@ -9,10 +9,10 @@ default_config:
 # Text to speech
 tts:
   - platform: google_translate
-vacuum:
-  - platform: xiaomi_miio
-    host: 192.168.1.6
-    token: 42783931395962556764314e6e6b4475
+#vacuum:
+#  - platform: xiaomi_miio
+#    host: 192.168.1.6
+#    token: 42783931395962556764314e6e6b4475
 
 input_select:
   vacuum_room:
@@ -22,7 +22,7 @@ input_select:
       - Entrance
       - Kitchen
       - Bedroom
-      - Bathrorom
+      - Bathroom
       - Dining Area
       - Living Room
     initial: Select Input
